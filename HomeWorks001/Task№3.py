@@ -14,7 +14,7 @@ def what_quarter (coor):
     else:
         return 4
 try:
-    print('Узнаем в какой четверти находится точка!')
+    print('Определим, в какой четверти находится точка!')
     print('X и Y одновременно не должны быть равны 0!')
     coordinate = [0,0]
     while coordinate[0] == 0 and coordinate[1] == 0:
