@@ -15,9 +15,7 @@ def find_unique(numbers):
         if i not in unique:
             unique.append(i)
     return unique
-
 try:
-    print('Найдём исключительные значения вашего списка!')
     new_list = create_list()
     print(f'Исходный список: \n{new_list}')
     result = find_unique(new_list)

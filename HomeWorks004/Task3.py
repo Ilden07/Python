@@ -17,7 +17,7 @@ def create_list(k):
     return form
 
 def save_in_file (list):
-    with open('HomeWorks/HomeWorks4/task3.txt', 'w') as ff:
+    with open('Python\HomeWorks004\Task3.txt', 'w') as ff:
         ff.write(list)
     print('Многочлен сохранён в файле!')
 
