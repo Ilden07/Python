@@ -21,21 +21,21 @@
 
 def create_list():
     games = []
-    print('Запишем результаты матчей! Запись в формате:')
-    print('Команда1;количество_голов;Команда2;количество_голов')
-    print('Чтобы закончить ввод, отправьте пустое значение!')
-    while (value := input('Введите результат: ')) != '':
+    print("Запишите результаты матчей! Запись произвести в формате:")
+    print("Команда1;количество_голов;Команда2;количество_голов")
+    print("Чтобы закончить ввод, отправьте пустое значение!")
+    while (value := input("Введите результат: ")) != "":
         games.append(value)
     return games
 
 def print_result(result):
     for key, value in result.items():
-        print('{} {}'.format(key,value))
+        print("{} {}".format(key,value))
 
 def football(games):
     result = {}
     for game in games:
-        game = game.split(';')
+        game = game.split(";")
         if game[0] not in result:
             result[game[0]] = [1, 0, 0, 0, 0]
         else:

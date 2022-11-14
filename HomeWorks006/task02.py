@@ -10,26 +10,26 @@
 #     (1+2)*3 => 9;
 
 def math(a,b,i):
-    if i == '+':
+    if i == "+":
         return int(a)+int(b)
-    elif i == '-':
+    elif i == "-":
         return int(a)-int(b)
-    elif i == '*':
+    elif i == "*":
         return int(a)*int(b)
-    elif i == '/':                    
+    elif i == "/":                    
         return int(a)/int(b)
 
 def check_brace (con):
-    con = con.replace(' ','')
-    if '(' in con:
-        con_part = con[con.find('(')+1:con.find(')')]
-        new_con = con.replace(str(con[con.find('('):con.find(')')+1]), str(calc(con_part)))
+    con = con.replace(" "," ")
+    if "(" in con:
+        con_part = con[con.find("(")+1:con.find(")")]
+        new_con = con.replace(str(con[con.find("("):con.find(")")+1]), str(calc(con_part)))
         return calc(new_con)
     else:
         return calc(con)
 
 def calc(con):
-        oper = ['+', '-', '*', '/']
+        oper = ["+", "-", "*", "/"]
         for i in oper:
             if (j := con.find(i)) >= 0:
                 left = con[:j]
@@ -44,5 +44,5 @@ def calc(con):
                     return math(calc(left), calc(right), i)
 
 
-con = input('Задайте арифмитическое выражение строкой: ')
-print(f'Ответ: {check_brace(con)}')
+con = input("Задайте арифмитическое выражение строкой: ")
+print(f"Ответ: {check_brace(con)}")
