@@ -60,7 +60,7 @@ def click(text):
                 activeStr = ''
                 label.configure(text='0')
 
-label = Label(root, text='0', width=35)
+label = Label(root, text='0', width=60)
 label.grid(row=0, column=0, columnspan=4, sticky="nsew")
 
 button = Button(root, text='CE', command=lambda text='CE': click(text))
