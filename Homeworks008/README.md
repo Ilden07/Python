@@ -19,6 +19,6 @@
 ![avatar](https://github.com/Ilden07/Python/blob/main/Homeworks008/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.jpg)
 Также возможно произвести удаления из базы. Для этого необходимо ввести ID нинтересующего элемента, и соответственно нажать 
 кнопку "Удалить". Элемент пропадет из базы.
-![Alt text](../../../../../../../../../C:/Users/%D0%90%D1%80%D1%82%D0%B5%D0%BC/Desktop/%D0%A1%D0%B5%D0%BC%D0%B8%D0%BD%D0%B0%D1%80%20%D0%94%D0%97/Python/Seminars/Python/Homeworks008/%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.jpg)
+![avatar](https://github.com/Ilden07/Python/blob/main/Homeworks008/%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.jpg)
 С помощью приложения, можно произвести поиск по базе, введя, например, фирму авто, нажав кнопку "Поиск". Помимо этого, для поиска по конкретным параметрам можно в соответствующие поля указать более подробное описание.
-![Alt text](../../../../../../../../../C:/Users/%D0%90%D1%80%D1%82%D0%B5%D0%BC/Desktop/%D0%A1%D0%B5%D0%BC%D0%B8%D0%BD%D0%B0%D1%80%20%D0%94%D0%97/Python/Seminars/Python/Homeworks008/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA.jpg)
+![avatar](https://github.com/Ilden07/Python/blob/main/Homeworks008/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA.jpg)
