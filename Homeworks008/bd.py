@@ -3,7 +3,7 @@ import sqlite3
 
 def create_table():
     try:
-        sqlite_connection = sqlite3.connect('https://github.com/Ilden07/Python/blob/main/Homeworks008/auto.db')
+        sqlite_connection = sqlite3.connect('C:/Users/Артем/Desktop/Семинар ДЗ/Python/Seminars/Python/Homeworks008/auto.db')
         sqlite_create_table_query = '''CREATE TABLE sqlitedb_developers (
                                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                                     firm TEXT NOT NULL,
